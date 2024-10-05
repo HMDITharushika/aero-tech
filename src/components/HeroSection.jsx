@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="relative z-10 flex flex-col items-center mt-6 lg:mt-20 text-white">
         <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
           Revolutionizing Aerospace with{" "}
-          <span className="bg-gradient-to-r from-green-500 to-blue-800 text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-green-500 to-blue-800 text-transparent bg-clip-text font-semibold">
             Green Technology
           </span>
         </h1>

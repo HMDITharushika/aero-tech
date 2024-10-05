@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Services from "./components/Services";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Blogs />
 
       <Footer />
+      <Analytics/>
     </main>
   );
 };
